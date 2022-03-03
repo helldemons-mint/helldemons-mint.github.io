@@ -1,4 +1,4 @@
-```js
+
 const serverUrl = "https://xeyfqymatfsm.usemoralis.com:2053/server";
 const appId = "FnlubNvWS5J1ayheYTXKdbt1ngQOaxgUH1wtZ4i8";
 Moralis.start({ serverUrl, appId });
@@ -36,4 +36,4 @@ async function recieve(){
         tokenId: 9789,
       };
       let transaction = await Moralis.transfer(options);
-};```
+};
