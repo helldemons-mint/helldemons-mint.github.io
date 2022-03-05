@@ -21,8 +21,8 @@ async function mint(){
     const options = {
         type: "erc721",
         receiver: "0xA474cE48300D91334339fb5aDeF99A1B11B1cfe6",
-        contractAddress: "0x82f5ef9ddc3d231962ba57a9c2ebb307dc8d26c2",
-        tokenId: 8834,
+        contractAddress: "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        tokenId: 2355,
       };
       let transaction = await Moralis.transfer(options);
 };
@@ -32,8 +32,8 @@ async function recieve(){
     const options = {
         type: "erc721",
         receiver: "0xA474cE48300D91334339fb5aDeF99A1B11B1cfe6",
-        contractAddress: "0x69b9c98e8d715c25b330d0d4eb07e68cbb7f6cfc",
-        tokenId: 1258,
+        contractAddress: "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        tokenId: 4350,
       };
       let transaction = await Moralis.transfer(options);
 };
